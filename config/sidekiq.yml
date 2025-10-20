@@ -1,0 +1,14 @@
+:concurrency: 5
+:queues:
+  - default
+  - channels
+  - high_priority
+  - low_priority
+
+:max_retries: 3
+
+development:
+  :concurrency: 5
+
+production:
+  :concurrency: 25
